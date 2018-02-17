@@ -70,3 +70,42 @@
         </div>
     </div>
 </footer>
+</body>
+<!--   Core JS Files   -->
+<script src="js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="js/core/popper.min.js" type="text/javascript"></script>
+<script src="js/core/bootstrap.min.js" type="text/javascript"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="js/plugins/bootstrap-switch.js"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+<script src="js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+<script src="js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    items : 10,
+    nav: true,
+    navText : ["<i class='fa fa-cog'></i>","<i class='fa fa-spinner'></i>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },            
+        960:{
+            items:5
+        },
+        1200:{
+            items:6
+        }
+    }
+  });
+});
+</script>
+
+</html>

@@ -14,3 +14,4 @@
 i {
     text-align:center;
 }
+.owl-nav > * { display:inline; }

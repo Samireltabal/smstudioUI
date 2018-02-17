@@ -20,6 +20,7 @@
                 </div>
             </div>
             <!-- end images section -->
+            <!-- start panels -->
             <div class="section">
                 <div class="container">
                     <div class="row page">
@@ -41,6 +42,17 @@
                     </div>
                 </div>
             </div>
-
-    </div>
+            <!-- end panels -->
+            <!-- carousel Start -->
+            <div class="container">                
+                <div class="owl-carousel">
+                    <?php 
+                        for ($i=0; $i < 20 ; $i++) { 
+                            echo '<i class="fa fa-cog fa-spin fa-8x"></i>';
+                        }
+                    ?>
+                </div>
+            </div>
+            <!-- carousel end -->
+</div>
     

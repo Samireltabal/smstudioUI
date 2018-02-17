@@ -2,7 +2,7 @@
  <nav class="navbar navbar-expand-lg bg-danger fixed-top navbar-transparent " color-on-scroll="400">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="#" rel="tooltip" title="SM Studio , Creative Web Solutions" data-placement="bottom" target="_blank">
+                <a class="navbar-brand" href="./" rel="tooltip" title="SM Studio , Creative Web Solutions" data-placement="bottom">
                     <img class="n-logo" src="img/now-logo.png" alt=""  width="30" height="30" > Studio
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +54,7 @@
                             </a>
                         </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-neutral" href="#">
+                        <a class="nav-link btn btn-neutral" href="./login.php">
                             <i class="fa fa-sign-in"></i>
                             <p>Login</p>
                         </a>
