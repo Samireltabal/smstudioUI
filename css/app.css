@@ -1,0 +1,16 @@
+.page h1 , .page i , .page p { color:#333; text-align: center;  }
+.page i { padding:0; margin:0 auto; text-align: center; }
+.section { padding: 20px 0px ;}
+.fa-8x { font-size: 8em; }
+.section-images { padding: 70px 0px; }
+.page h1 { font-weight: bold; color:#FF3636; text-shadow: 1px 1px 1px #333; }
+.sm {
+    display: inline-block;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF3636 ), to(#FF3636 ));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+i {
+    text-align:center;
+}
