@@ -37,8 +37,8 @@
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="#">
-                            <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-                            <p>Downloads</p>
+                            <i class="fa fa-github"></i>
+                            <p>github</p>
                         </a>                        
                     </li>
                     <li class="nav-item">

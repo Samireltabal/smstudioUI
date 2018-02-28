@@ -11,8 +11,10 @@
                 <img class="n-logo" src="img/now-logo.png" alt="">
                 <h1 class="h1-seo">SM STUDIO</h1>
                 <h3>Creative Web Solutions .</h3>
-            </div>  <!-- end content-cetner brand -->            
-        </div> <!-- end container -->
+        </div>  <!-- end content-cetner brand -->
+               <div class="clearfix"></div>
+               
+                </div> <!-- end container -->
         <!-- end header image -->        
     </div>  <!-- end wrapper -->
     <!-- body -->

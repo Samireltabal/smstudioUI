@@ -95,13 +95,13 @@ $(document).ready(function(){
             items:1
         },
         600:{
-            items:3
+            items:1
         },            
         960:{
-            items:5
+            items:1
         },
         1200:{
-            items:6
+            items:1
         }
     }
   });

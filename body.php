@@ -24,20 +24,19 @@
             <div class="section">
                 <div class="container">
                     <div class="row page">
-                        <div class="col-md-4">
-                            <i class="fa sm fa-paint-brush fa-8x"></i>    
-                            <h1>Services</h1>                        
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat officiis quod iste amet reprehenderit vel. Esse qui quae dicta corrupti ipsum! Sequi recusandae ullam odit maiores asperiores doloribus dolores nostrum.</p>
+                        <div class="col-md-6">
+                            <div id=containerText>
+                                Get awesome
+
+                                <div id=flip>
+                                    <div><div>Wordpress Themes</div></div>
+                                    <div><div>web Applications</div></div>
+                                    <div><div>Web Designs</div></div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-4">
-                            <i class="fa sm fa-cog fa-8x"></i>    
-                            <h1>Products</h1>                            
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ad laudantium quas earum labore. Adipisci officia suscipit repellat, praesentium commodi itaque magnam perspiciatis consequatur maiores eveniet, voluptate repellendus cumque amet!</p>
-                        </div>
-                        <div class="col-md-4">
-                            <i class="fa sm fa-users fa-8x"></i>    
-                            <h1>Management</h1>                            
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam, quis a nisi fuga hic beatae voluptatibus. Sed veritatis aspernatur, exercitationem officiis incidunt labore omnis earum corporis cum nihil nesciunt.</p>
+                        <div class="col-md-6">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, voluptates. Non nihil quas aliquid sunt sequi adipisci perspiciatis placeat, aut temporibus repellat animi maiores veniam cum porro iste sint autem.</p>
                         </div>
                     </div>
                 </div>
@@ -46,11 +45,17 @@
             <!-- carousel Start -->
             <div class="container">                
                 <div class="owl-carousel">
-                    <?php 
-                        for ($i=0; $i < 20 ; $i++) { 
-                            echo '<i class="fa fa-cog fa-spin fa-8x"></i>';
-                        }
-                    ?>
+               <div class="col-lg-12">
+                   <div class="row">
+                    <img src="http://placehold.it/340x400" class='img-responsive col-lg-4' alt="">    
+                    <p class='col-lg-8'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, voluptates. Non nihil quas aliquid sunt sequi adipisci perspiciatis placeat, aut temporibus repellat animi maiores veniam cum porro iste sint autem.
+                    </p>
+                    </div>
+               </div>
+               <div class="col-lg-12">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti unde optio quasi, officiis sint dolorum ullam nisi aperiam non culpa quod ipsam officia exercitationem maiores impedit laboriosam sed repudiandae eius?</p>
+               </div>
                 </div>
             </div>
             <!-- carousel end -->
